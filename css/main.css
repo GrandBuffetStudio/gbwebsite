@@ -1,0 +1,139 @@
+.bw {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+ 
+.bw:hover {
+  -webkit-filter: grayscale(100%);
+}
+.photos li {
+	display: inline-block;
+	padding: 8px;
+}
+.thumbnails {
+	outline-style: none;
+	outline-color: #cdcdcd;
+	outline-width: thin;
+}	
+.navbar li {
+	display: inline-block;
+}
+#nav li {
+	padding: 0px 30px;
+}
+h4 {
+	font-family: 'Oswald', sans-serif; font-weight: 700; font-size: 15pt; color: #27d5e8;	
+}
+h5 {
+	font-family: 'Oswald', sans-serif; font-weight: 400; font-size: 13pt; color: rgba(69,68,68,1);	
+}
+h6 {
+	font-family: 'Oswald', sans-serif; font-weight: 300; font-size: 10pt; color: rgba(0,0,0,0.5);	
+}	
+.view {
+    width: 275px;
+    height: 196px;
+    margin: 8px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #fff; 
+}
+.view .mask, .view .content {
+    width: 275px;
+    height: 196px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 15px;
+    padding: 6px;
+    background: rgba(39,213,232, 0.8);
+    margin: 10px 0 0 0
+}
+.view p {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    padding: 5px 7px 5px;
+    text-align: center
+}
+.view a.info {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 15px;
+    position: relative;
+    text-decoration: none;
+    padding: 0px 3px;
+    background: #000;
+    color: #fff;
+    box-shadow: 1px 1px 1px #000;  
+}
+.view a.info:hover {
+    box-shadow: 0 0 3px #000;
+}
+.view-first img { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(0,0,0, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+.view-first h3 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first:hover img { 
+    transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+    opacity: 1;
+}
+.view-first:hover h3,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+.center
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+.work {
+	padding: 100px;
+}
