@@ -114,6 +114,19 @@
 	top: 4%;
 	margin: 0 0 -120px 0;
 }
+.demo-1 .sl-slide h5 {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	padding: 20px;
+	position: absolute;
+	font-size: 20px;
+	font-weight: 400;
+	width: 50%;
+	text-align: center;
+	line-height: 50px;
+	top: 10%;
+	margin: 0 0 -120px 0;
+}
 
 .demo-1 .sl-slide blockquote {
 	position: absolute;

@@ -33,6 +33,7 @@
     position: relative
 }
 .view h3 {
+	font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
@@ -43,7 +44,7 @@
     margin: 10px 0 0 0
 }
 .view p {
-    font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 14px;
     position: relative;
@@ -52,7 +53,7 @@
     text-align: center;
 }
 .view a.info {
-    font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
     font-size: 15px;
     position: relative;
     text-decoration: none;
